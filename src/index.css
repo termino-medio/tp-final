@@ -1,0 +1,25 @@
+/* index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+footer {
+  padding: 2rem 0;
+}
+
+.navbar {
+  margin-bottom: 1rem;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  margin-top: 2rem;
+}
