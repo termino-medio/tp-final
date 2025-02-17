@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from './Navbar';  // Importa Navbar
-import Footer from './Footer';  // Importa Footer
+import Navbar from './Navbar';  
+import Footer from './Footer'; 
 
 const Layout = ({ children }) => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <Navbar /> {/* Barra de navegación */}
+      <Navbar /> 
      <main style={{ flex: 1, paddingTop: '5rem' }}>
   {children}
-</main>{/* Espacio para el contenido */}
-      <Footer /> {/* Footer pegado al fondo */}
+</main>
+      <Footer /> 
     </div>
   );
 };

@@ -4,5 +4,5 @@ import { getFirestore } from 'firebase/firestore';
 
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
-const googleProvider = new GoogleAuthProvider();
-
+02:05:54 [vite] (client) ✨ optimized dependencies changed. reloading
+$npm run dev

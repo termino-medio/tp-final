@@ -8,7 +8,7 @@ import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 const handleGoogleLogin = async () => {
   try {
     await signInWithPopup(auth, googleProvider);
-    navigate('/'); // Redirige al home después de login exitoso
+    navigate('/');
   } catch (error) {
     setError('Error en la autenticación con Google');
   }
@@ -32,7 +32,7 @@ const Login = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate('/'); // Redirige al home después del login exitoso
+      navigate('/'); 
     } catch (error) {
       setError('Credenciales incorrectas');
     }
